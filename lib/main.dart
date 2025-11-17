@@ -11,7 +11,7 @@ import 'login.dart';
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
-  print("🔔 Handling a background message: ${message.messageId}");
+  print("Handling a background message: ${message.messageId}");
   print("Message data: ${message.data}");
 }
 void main() async {
@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
 
       // Get the token
       String? token = await _messaging.getToken();
-      print('📱 FCM Token: $token');
+      print('FCM Token: $token');
       setState(() => _token = token);
 
       FirebaseMessaging.onMessage.listen((RemoteMessage message) {
