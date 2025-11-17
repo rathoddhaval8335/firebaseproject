@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961976234923",
+    "project_id": "fir-assement-942ed",
+    "storage_bucket": "fir-assement-942ed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961976234923:android:55d2749c25486e255818ee",
+        "android_client_info": {
+          "package_name": "com.example.firebase_ass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt-61M_lTz3UrTqdc_1CZ2WPeRRHnqtTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961976234923:android:bcd11b08e0f8cd595818ee",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt-61M_lTz3UrTqdc_1CZ2WPeRRHnqtTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
