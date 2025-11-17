@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
     );
 
     if (settings.authorizationStatus == AuthorizationStatus.authorized) {
-      print('✅ Permission granted for notifications');
+      print('Permission granted for notifications');
 
       // Get the token
       String? token = await _messaging.getToken();
@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
       setState(() => _token = token);
 
       FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-        print('📩 Received a message while in foreground!');
+        print('Received a message while in foreground!');
         print('Message data: ${message.data}');
 
         if (message.notification != null) {
@@ -71,7 +71,7 @@ class _MyAppState extends State<MyApp> {
 
       // Handle when app is opened from notification
       FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-        print('🟢 Message clicked!');
+        print(' Message clicked!');
         Navigator.pushNamed(context, '/home');
       });
     } else {
